@@ -14,7 +14,7 @@ P.S: Это мой первый хакантон, как капитан(да и 
 ## Running 
 Выполнить команду ```python manage.py runserver``` и перейти по выданной ссылке.
 
-##Structure
+## Structure
 * html : main/templates/main
 * css: main/static/main/css:w
 * js : main/static/main/javascript
