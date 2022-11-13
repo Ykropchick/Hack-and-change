@@ -52,7 +52,8 @@ l0 68 -30 0 -30 0 0 -77z"/>
 
     </div>
     <div class="main-block">
-      <form>
+      <form method="POST">
+          {%csrf_token%}
         <h1 class="Enter-text">Вход</h1>
         <div class="register-filed">
 
