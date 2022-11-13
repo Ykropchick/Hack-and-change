@@ -1,0 +1,53 @@
+  .header-line{
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -8px;
+
+    width: 100%;
+    background: #EF3124;
+  }
+  .header-icon{
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .field{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .field input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .button button{
+    width: 300px;
+    height: 50px;
+  }
+  .Enter-text{
+    margin-bottom: 60px;
+  }
+  .button{
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    color: #FFFFFF;
+  }
+  .forget-password{
+    padding-top: 8px;
+    color: #FFFFFF;
+  }
+  .main-block{
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    text-align: center;
+
+  }
+  .register-filed{
+    width: 430px;
+    height: 300px;
+    padding-top: 40px;
+    border-radius: 10px;
+    background: #EF3124;
+  }
