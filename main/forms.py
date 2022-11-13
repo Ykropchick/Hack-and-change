@@ -2,6 +2,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django import forms
 from .models import *
 from django.core.exceptions import ValidationError
+from django.contrib.auth.views import LoginView, AuthenticationForm
 
 
 class SignUp(forms.ModelForm):
@@ -14,10 +15,11 @@ class SignUp(forms.ModelForm):
         fields = ("phone", "name", "password")
 
 
-class SignIn(forms.ModelForm):
+class SignIn(AuthenticationForm):
     phone = forms.CharField(label="phone", widget=forms.TextInput(attrs={'class': 'form-input', 'placeholder': "Телефон"}))
     password = forms.CharField(label="password", widget=forms.TextInput(attrs={'class': 'form-input', 'placeholder': "Пароль"}))
 
     class Meta:
         model = Streamers
         fields = ("phone", "password")
+
